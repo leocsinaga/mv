@@ -1,0 +1,11 @@
+.search {
+    background: url("../../img/icons/search.png") no-repeat scroll 4px 4px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50FFFFFF,endColorstr=#50FFFFFF);
+    border: none;
+    border-radius: 100px;
+    box-shadow: none;
+    color: #fff;
+    padding: 0 5px 0 30px;
+    transition: all 0.3s ease 0s;
+    width: 20px;
+}

@@ -1,0 +1,25 @@
+.dropdown-menu > li > a {
+	color: #ffffff;
+}
+.dropdown-menu {
+	background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#20FFFFFF,endColorstr=#20FFFFFF);
+	/*background-color: transparent;*/
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#50FFFFFF,endColorstr=#50FFFFFF);
+    border-color: #337ab7;
+	/*background-color: transparent;*/
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#40FFFFFF,endColorstr=#40FFFFFF);
+    color: #ffffff;
+    text-decoration: none;
+	/*background-color: transparent;*/
+}
+
+#accordion > .panel > .panel-heading {
+	cursor: pointer;
+}
