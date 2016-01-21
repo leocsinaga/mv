@@ -1,0 +1,86 @@
+.box {
+	/*min-height: 200px;*/
+}
+
+.widget {
+	margin-bottom: 10px;
+	position: relative;
+}
+.widget-shadow {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+.widget-1x {
+	height: 100px;
+	overflow: hidden;
+}
+.widget-2x {
+	height: 200px;
+	overflow: hidden;
+}
+.widget-header {
+	padding: 5px;
+}
+.widget-body {
+	
+}
+
+
+.bg-default{
+	background: #133959 !important;
+}
+.bg-tp-black {
+	background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}
+.bg-tp-black-2 {
+	background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+}
+.bg-tp-black-3 {
+	background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+}
+.bg-tp-black-4 {
+	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+.bg-tp-white {
+	background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+	color: #ffffff;
+}
+.bg-tp-white-2 {
+	background: rgba(255, 255, 255, 0.2) none repeat scroll 0 0;
+	color: #ffffff;
+}
+.bg-tp-white-3 {
+	background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+	color: #ffffff;
+}
+.bg-tp-white-4 {
+	background: rgba(255, 255, 255, 0.4) none repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.controls {
+	display: inline-block;
+	font-size: 20px;
+	z-index: 99;
+	position: absolute;
+	top: 0;
+	right: 25px;
+}
+
+.widget-header .controls a { color: #ffffff; }
+
+.front {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	height: 100%;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.front-hover {	
+	top: 40px;
+}
+
+.font-mini {
+	
+}

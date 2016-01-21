@@ -33,7 +33,12 @@
 	background: rgba(19, 57, 89, 0.7) none repeat scroll 0 0;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#70133959,endColorstr=#70133959);
 }
-
+.wrapper {
+    display: inline-block;
+    margin-top: 80px;
+    padding: 15px;
+    width: 100%;
+}
 a.logo {
     color: #ffffff;
 	font-weight: bold;
